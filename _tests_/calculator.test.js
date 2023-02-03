@@ -18,5 +18,9 @@ describe ('Age class functionality', () => {
   test('it should calculate the Mars age', () => {
     expect(age.getMarsAge()).toEqual(13);
   })
+
+  test('it should calculate the Jupiter age', () => {
+    expect(age.getJupiterAge()).toEqual(2)
+  })
 });
 
