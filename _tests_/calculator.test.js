@@ -10,5 +10,9 @@ describe ('Age class functionality', () => {
   test('it should create an age object and calculate the Mercury age', () => {
     expect(age.getMercuryAge()).toEqual(104);
   });
+
+  test('it should calculate the Venus age', () => {
+    expect(age.getVenusAge()).toEqual(40);
+  })
 });
 

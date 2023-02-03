@@ -6,4 +6,8 @@ export class Age {
   getMercuryAge() {
     return Math.floor(this.age / .24);
   }
+
+  getVenusAge() {
+    
+  }
 }
