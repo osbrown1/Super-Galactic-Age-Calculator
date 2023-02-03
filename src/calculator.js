@@ -10,4 +10,8 @@ export class Age {
   getVenusAge() {
     return Math.floor(this.age / .62);
   }
+
+  getMarsAge() {
+    
+  }
 }
