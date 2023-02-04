@@ -19,8 +19,9 @@ export class Age {
     return Math.floor(this.age / 11.86);
   }
 
-  getYearsSinceBirthday(pastBirthday) {
-    const 
+  getYearsSinceBirthday(pastBirthdayAge) {
+    const earthYearsPassed = this.age - pastBirthdayAge
+    
   }
 
 }
