@@ -22,5 +22,9 @@ describe ('Age class functionality', () => {
   test('it should calculate the Jupiter age', () => {
     expect(age.getJupiterAge()).toEqual(2)
   })
+
+  test('it should determine how many years have passed on each planet since a past birthday', () => {
+    expect()
+  })
 });
 
