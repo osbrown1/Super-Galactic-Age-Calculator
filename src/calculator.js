@@ -34,7 +34,7 @@ export class Age {
     const earthYearsUntil = untilBirthday - this.age;
     return {
       earthYears: Math.floor(earthYearsUntil),
-      mercuryYears: Math.floor(mercuryYearsUntil / .24),
+      mercuryYears: Math.floor(earthYearsUntil / .24),
       
      };
     
