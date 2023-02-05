@@ -28,13 +28,13 @@ export class Age {
       marsYears: Math.floor(earthYearsPassed / 1.88),
       jupiterYears: Math.floor(earthYearsPassed / 11.88),
     };
+  }
 
   getYearsUntilBirthday(untilBirthday) {
     const earthYearsUntil = untilBirthday - this.age;
     return {
-      
-    }
-  };
+
+     };
     
   }
 
