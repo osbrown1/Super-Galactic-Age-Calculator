@@ -33,8 +33,8 @@ describe ('Age class functionality', () => {
   });
 
   test('it should determine how many years need to pass on each planet until a future birthday', () => {
-    const yearsUntil = age.getYearsUntilBirthday(10);
-    expect(yearsUntil.earthYears).toEqual(35);
+    const yearsUntil = age.getYearsUntilBirthday(35);
+    expect(yearsUntil.earthYears).toEqual(10);
   });
 });
 
