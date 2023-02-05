@@ -20,8 +20,7 @@ export class Age {
   }
 
   getYearsSinceBirthday(pastBirthdayAge) {
-    const earthYearsPassed = this.age - pastBirthdayAge;
-    
+    const yearsPassed = this.age - pastBirthdayAge;
     
   }
 

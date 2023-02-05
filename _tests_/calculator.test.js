@@ -13,18 +13,18 @@ describe ('Age class functionality', () => {
 
   test('it should calculate the Venus age', () => {
     expect(age.getVenusAge()).toEqual(40);
-  })
+  });
 
   test('it should calculate the Mars age', () => {
     expect(age.getMarsAge()).toEqual(13);
-  })
+  });
 
   test('it should calculate the Jupiter age', () => {
-    expect(age.getJupiterAge()).toEqual(2)
-  })
+    expect(age.getJupiterAge()).toEqual(2);
+  });
 
   test('it should determine how many years have passed on each planet since a past birthday', () => {
-    const yearsPassed = age.getYearsPassedSinceLastBirthday(40)
+    const yearsPassed = age.getYearsSinceBirthday(40);
     expect(yearsPassed.earthYears).toEqual(15);
   })
 });
