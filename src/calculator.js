@@ -38,11 +38,8 @@ export class Age {
       venusYears: Math.floor(earthYearsUntil /.62),
       marsYears: Math.floor(earthYearsUntil / 1.88),
       jupiterYears: parseFloat((earthYearsUntil / 11.86).toFixed(2)),
-      
-     };
-    
+    };
   }
-
 }
 
 
