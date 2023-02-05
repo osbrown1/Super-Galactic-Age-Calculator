@@ -27,6 +27,7 @@ describe ('Age class functionality', () => {
     const yearsPassed = age.getYearsSinceBirthday(10);
     expect(yearsPassed.earthYears).toEqual(15);
     expect(yearsPassed.mercuryYears).toEqual(62);
+    expect(yearsPassed.venusYears).toEqual(24);
   });
 });
 
