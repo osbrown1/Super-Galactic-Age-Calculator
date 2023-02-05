@@ -36,6 +36,7 @@ describe ('Age class functionality', () => {
     const yearsUntil = age.getYearsUntilBirthday(35);
     expect(yearsUntil.earthYears).toEqual(10);
     expect(yearsUntil.mercuryYears).toEqual(41);
+    expect(yearsUntil.venusYears).toEqual(16);
   });
 });
 
