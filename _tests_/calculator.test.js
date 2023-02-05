@@ -37,6 +37,7 @@ describe ('Age class functionality', () => {
     expect(yearsUntil.earthYears).toEqual(10);
     expect(yearsUntil.mercuryYears).toEqual(41);
     expect(yearsUntil.venusYears).toEqual(16);
+    expect(yearsUntil.marsYears).toEqual(5);
   });
 });
 
