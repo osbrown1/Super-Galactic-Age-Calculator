@@ -31,5 +31,10 @@ describe ('Age class functionality', () => {
     expect(yearsPassed.marsYears).toEqual(7);
     expect(yearsPassed.jupiterYears).toEqual(1)
   });
+
+  test('it should determine how many years need to pass on each planet until a future birthday', () => {
+    const yearsUntil = age.getYearsUntilBirthday(10);
+    expect(yearsUntil.earthYears).toEqual(35);
+  });
 });
 

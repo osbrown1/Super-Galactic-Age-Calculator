@@ -27,9 +27,14 @@ export class Age {
       venusYears: Math.floor(earthYearsPassed / .62),
       marsYears: Math.floor(earthYearsPassed / 1.88),
       jupiterYears: Math.floor(earthYearsPassed / 11.88),
-      
-
     };
+
+  getYearsUntilBirthday(untilBirthday) {
+    const earthYearsUntil = untilBirthday - this.age;
+    return {
+      
+    }
+  };
     
   }
 
