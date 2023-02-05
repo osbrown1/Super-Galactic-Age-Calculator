@@ -29,6 +29,7 @@ describe ('Age class functionality', () => {
     expect(yearsPassed.mercuryYears).toEqual(62);
     expect(yearsPassed.venusYears).toEqual(24);
     expect(yearsPassed.marsYears).toEqual(7);
+    expect(yearsPassed.jupiterYears).toEqual(1)
   });
 });
 
