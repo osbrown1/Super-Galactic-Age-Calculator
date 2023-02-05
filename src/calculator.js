@@ -33,7 +33,7 @@ export class Age {
   getYearsUntilBirthday(untilBirthday) {
     const earthYearsUntil = untilBirthday - this.age;
     return {
-
+      earthYears: Math.floor(earthYearsUntil),
      };
     
   }
