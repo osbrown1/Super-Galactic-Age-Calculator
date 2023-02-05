@@ -24,6 +24,7 @@ export class Age {
     return {
       earthYears: Math.floor(earthYearsPassed),
       mercuryYears: Math.floor(earthYearsPassed / .24),
+      venusYears: Math.floor(earthYearsPassed / .62), 
 
     };
     
