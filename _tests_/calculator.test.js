@@ -26,6 +26,6 @@ describe ('Age class functionality', () => {
   test('it should determine how many years have passed on each planet since a past birthday', () => {
     const yearsPassed = age.getYearsSinceBirthday(40);
     expect(yearsPassed.earthYears).toEqual(15);
-  })
+  });
 });
 
