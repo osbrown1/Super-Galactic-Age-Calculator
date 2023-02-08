@@ -7,6 +7,10 @@
 ## Technologies Used
 
 * _JS_
+* _Jest_
+* _Webpack_
+* _npm_
+
 
 ## Description
 
